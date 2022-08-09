@@ -15,7 +15,11 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+number = int(input())
+if number>=100 and number<1000:
+    print('Yes')
+else:
+    print('No')
 ```
 
 ---
