@@ -18,7 +18,17 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+number = int(input())
+number = abs(number)
+a = number // 1000
+b = (number // 100) % 10
+c = (number % 100) // 10
+d = number % 10
+
+if a == d and b == c:
+    print('Yes')
+else:
+    print('No')
 ```
 
 ---
