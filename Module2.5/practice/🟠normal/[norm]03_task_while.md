@@ -20,7 +20,15 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+level = int(input())
+total = 0
+a = 1
+while a <= level:
+    b = a
+    b = a ** a
+    total += b
+    a += 1
+print("Сумма чисел =", total)
 ```
 
 ---
