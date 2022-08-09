@@ -16,7 +16,17 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+n = int(input())
+divider = 2
+result = ''
+while divider <= n:
+    if n % divider == 0 and divider != n:
+        result += str(divider) + ' '
+    divider += 1
+if result == '':
+    print("Число простое")
+else:
+    print(result)
 ```
 
 ---
